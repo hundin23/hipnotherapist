@@ -105,14 +105,14 @@ li>ul {
   display: none;
   position: absolute;
   text-align: left;
-  top:5px;
+  top:1%;
 }
 
 
 
 .low-menu li {
   font-size: 12px;
-  padding-top: 10px;
+  padding-top: 2%;
   text-align: center;
   margin: 0;
 }
@@ -153,9 +153,10 @@ h1, h2, h3 {
 .main-acquintance {
   width: 100%;
   min-height: 560px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
 
 }
 
@@ -439,7 +440,6 @@ margin-bottom: 100px;
 .social-btn {
   position: relative;
   font-size: 0;
-  background-color: white;
  margin-left: 15%;
 }
 
@@ -717,8 +717,34 @@ margin: 5% 55%;
     background-position: -567px -5px;
 }
 
-@media all and (min-width: 640px) and (max-width: 734px){
-    * {
-       background: red;
+@media all and (min-width: 320px) and (max-width: 768px) {
+
+
+.container {
+  overflow: auto;
+
+}
+.main-nav li {
+  margin-left: 1%;
+}
+
+.main-about {
+margin: 10%;
+width: 100%;
+}
+
+.main-img {
+margin-left: 10%;
+margin-right: 10%
+}
+
+
+.features-cost {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+    .social-btn {
+    margin-right: 12%;
     }
 }
